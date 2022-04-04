@@ -1,0 +1,145 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+header{
+    background-color: rgb(79, 79, 100);
+    padding: 0px 147.6px;
+}
+.wrapper{
+    width: 1000px;
+    margin: 0px auto;
+}
+header .wrapper{
+    box-sizing: border-box;
+    padding: 0px 26.7px;
+}
+a[class="logo"]{
+    color: white;
+    font-size: 40px;
+}
+a[class="logo"]:hover{
+    color:rgb(94, 143, 155);
+}
+div[id="logo"]{
+    padding-top: 30px;
+    border-top: 4px solid rgb(94, 148, 155);
+    width: 300px;
+    float: left;
+}
+li[class="nav"]{
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+}
+li[class="nav"]:last-child{
+    margin-right: 0px;
+}
+nav{
+    float: right;
+    margin-top: 95px;
+}
+a[class="nav"]{
+    color: white;
+    font-size: 14px;
+}
+a[class="nav"]:hover{
+    color: rgb(94, 148, 155);
+}
+h2[class="header"]{
+    color: rgb(94, 148, 155);
+    font-size: 30px;
+    font-weight: lighter;
+    margin: 45px 210.5px 30px 210.5px;
+    width: 525.5px;
+    float: right;
+}
+p[class="header"]{
+    width: 914.69px;
+    margin: 0px 0px 30px 0px;
+    font-size: 30px;
+    color: white;
+    float: right;
+}
+input[type="button"]{
+    color: white;
+    background-color:rgb(79, 79, 100);
+    border: 2px solid white;
+    border-radius: 6px;
+    padding: 30px 40px;
+    margin-left: 379px;
+    margin-bottom: 60px;
+    cursor: pointer;
+}
+input[type="button"]:hover{
+    color: rgb(94, 143, 155);
+    background-color:white;
+    border: 2px solid white;
+    
+}
+
+article{
+    width:279.9px;
+    height: 395px;
+    float: left;
+    color: rgb(197, 197, 197);
+    overflow: hidden;
+    margin-top: 30px;
+    padding: 0px 26.7px;
+}
+article img{
+    margin: 20px 0px 20px 0px;
+    border-radius: 6px;
+}
+.clear{
+    clear: both;
+}
+section{
+    padding-top: 50px;
+    padding-bottom: 44px;
+}
+#footerlogo{
+    float: left;
+    font-size: 15px;
+    color: rgb(94, 148, 155);
+}
+#footernav{
+    float: right;
+}
+footer{
+    background-color: rgb(79, 79, 100);
+}
+footer .wrapper{
+    width: 1000px;
+    box-sizing:border-box;
+    padding: 44px 26.7px;
+}
+li[class="footnav"]{
+    display: inline-block;
+    text-align: center;
+    margin: 0px 10px;
+}
+li[class="footnav"]:last-child{
+    margin-right: 0px;
+}
+a[class="footnav"]{
+    color: white;
+    font-size: 13px;
+}
+a[class="footnav"]:hover{
+    color: rgb(94, 148, 155);
+}
+h5[class="section"]{
+    font-size: 15px;
+    color: rgb(150, 149, 149);
+}
+h2[class="section"]{
+    color:rgb(141, 174, 179) ;
+    margin-bottom: 15px;
+}
+p[class="section"]{
+    line-height: 25px;
+    color: rgb(150, 149, 149);
+}
